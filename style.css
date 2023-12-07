@@ -1,0 +1,69 @@
+/* defining default property values */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* width:50vw; */
+   height:50vh;
+}
+/* applyting properties to the container */
+section{
+      height:55vh;
+      width:45vh;
+      background-color: darkslategray;
+      margin-top: 50vh;
+      border-radius: 40px;
+      text-align: center;
+      
+    }
+    /* applyting properties to all buttons */
+    button{
+        width:4vw;
+        height:5vh;
+        border-radius: 50px;
+        font-size:large;
+        /* background-color: darkslategray; */
+        box-shadow: 1px 2px 1px 1px black;
+        border:0.5px solid white;
+        margin:3px;
+        
+    }
+    /* applyting properties to inputbox */
+    .input{
+    background-color: darkslategray;
+    border-radius: 15px;
+    height:9vh;
+    width:19vw;
+    border:none;
+    font-size: x-large;
+    margin-top: 3vh;
+    color:white;
+    text-align: end;
+}
+.inpbut{
+    margin-top: 10vh;
+}
+/* provoding with to equal button */
+.equal{
+   width:8vw;
+}
+/* applying hover property to all buttons for indicating the user that which button is going to click */
+.btn:hover{
+    background-image: linear-gradient(darkslategray, white);
+}
+/* applying eye catching color to the buttons */
+.orangeColor{
+    background-color: rgb(223, 124, 89);
+}
+
+/* applying eye catching hover property to the buttons in orangecolor*/
+.orangeColor:hover{
+    background-image: linear-gradient(rgba(255, 115, 0, 0.844), white);
+
+}
